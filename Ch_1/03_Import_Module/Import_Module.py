@@ -1,10 +1,10 @@
 # ============================================================================
-#     Name        : Import_Module.cpp 
+#     Name        : Import_Module.py
 #     Author      : Pragnesh Patel
-#     Version     : 
+#     Version     :
 #     Copyright   : Your copyright notice
 #     Description : Testing code for python
 # ============================================================================
 
 from playsound import playsound
-playsound('C:\\Pragnesh\\Tranning\\Python\\01_Code\\Ch_1\\03_Import_Module\\test.mp3')
+playsound('C:\\Users\\Pragnesh Patel\\Documents\\Pragnesh\\Tranning\\Python\\Git\\Python_Training\\Ch_1\\03_Import_Module\\Sound\\test.mp3')

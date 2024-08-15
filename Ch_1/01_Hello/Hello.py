@@ -1,15 +1,15 @@
 '''============================================================================
-    Name        : Hello world.cpp 
+    Name        : Hello world.py
     Author      : Pragnesh Patel
-    Version     : 
+    Version     :
     Copyright   : Your copyright notice
     Description : Testing code for python
 ============================================================================'''
 
 # ============================================================================
-#     Name        : Hello world.cpp 
+#     Name        : Hello world.cpp
 #     Author      : Pragnesh Patel
-#     Version     : 
+#     Version     :
 #     Copyright   : Your copyright notice
 #     Description : Testing code for python
 # ============================================================================
