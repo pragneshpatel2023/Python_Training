@@ -1,23 +1,21 @@
 # ============================================================================
-#     Name        : List.py
+#     Name        : Pr_01.py
 #     Author      : Pragnesh Patel
 #     Version     :
 #     Copyright   :
 #     Description : Testing code for python
 # ============================================================================
 
-list1 = ["abc", 34, True, 40, "male"]
-
 print("========================================================")
 
-print(list1)
-print("list1[0] = ",list1[0])
-print("list1[0] = ",list1[1])
-print("list1[1] = ",list1[2])
-print("list1[2] = ",list1[3])
-print("list1[3] = ",list1[4])
+thisDict = {
+  "papa": "Father",
+  "vastu": "Item",
+  "thala": "Bag",
+  "hitman": "Rohit Sharma"
+}
 
-
-
+print("Options are ", thisDict.keys())
+a = input("Enter your word : \n")
+print("Mending of your word is :", thisDict.get(a))
 print("========================================================")
-

@@ -2,7 +2,7 @@
     Name        : Hello world.py
     Author      : Pragnesh Patel
     Version     :
-    Copyright   : Your copyright notice
+    Copyright   :
     Description : Testing code for python
 ============================================================================'''
 
@@ -10,7 +10,7 @@
 #     Name        : Hello world.cpp
 #     Author      : Pragnesh Patel
 #     Version     :
-#     Copyright   : Your copyright notice
+#     Copyright   :
 #     Description : Testing code for python
 # ============================================================================
 

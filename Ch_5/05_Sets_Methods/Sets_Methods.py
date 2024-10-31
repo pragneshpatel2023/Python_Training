@@ -1,61 +1,47 @@
 # ============================================================================
-#     Name        : Type_Casting.py
+#     Name        : Sets_Methods.py
 #     Author      : Pragnesh Patel
 #     Version     :
 #     Copyright   :
 #     Description : Testing code for python
 # ============================================================================
 
-
-# Python Convert Int to Float
 print("========================================================")
-print("Convert Int to Float")
-# int variable
-a = 5
 
-# typecast to float
-n = float(a)
+# Creating a set
+a = {1, 3, 4, 5, 1, 6, 7, 8, 9}
+print(type(a))
+print(a)
 
-print(n)
-print(type(n))
-
-
-# Convert Float to Int
+# len method in set.
+b = len(a)
+print(b)
 print("========================================================")
-print("Convert Float to Int")
-# int variable
-a = 5.9
 
-# typecast to int
-n = int(a)
-
-print(n)
-print(type(n))
-
-
-# Convert int to String
+# remove method in set.
+a.remove(4)
+print(a)
 print("========================================================")
-print("Convert int to String")
-# int variable
-a = 5
 
-# typecast to str
-n = str(a)
-
-print(n)
-print(type(n))
-
-
-# Convert String to float
+# pop method in set.
+a.pop()
+print(a)
 print("========================================================")
-print("Convert String to float")
 
-# string variable
-a = "5.9"
+# union method in set.
+c = {8, 10, 11}
+c = a.union(c)
+print('a =', a)
+print('C =', c)
+print("========================================================")
 
-# typecast to float
-n = float(a)
+# intersection method in set.
+c = a.intersection({3, 5, 6})
+print('a =', a)
+print('C =', c)
+print("========================================================")
 
-print(n)
-print(type(n))
+# clear method in set.
+a.clear()
+print(a)
 print("========================================================")

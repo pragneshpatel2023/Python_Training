@@ -1,61 +1,35 @@
 # ============================================================================
-#     Name        : Type_Casting.py
+#     Name        : Sets_in_python.py
 #     Author      : Pragnesh Patel
 #     Version     :
 #     Copyright   :
 #     Description : Testing code for python
 # ============================================================================
 
-
-# Python Convert Int to Float
 print("========================================================")
-print("Convert Int to Float")
-# int variable
-a = 5
 
-# typecast to float
-n = float(a)
+# Creating a set
+a = {1, 3, 4, 5, 1}
+print(type(a))
+print(a)
 
-print(n)
-print(type(n))
-
-
-# Convert Float to Int
 print("========================================================")
-print("Convert Float to Int")
-# int variable
-a = 5.9
 
-# typecast to int
-n = int(a)
-
-print(n)
-print(type(n))
-
-
-# Convert int to String
+# Impotent : this syntax creates an empty dictionary not an empty set.
+a = {}
+print(type(a))
 print("========================================================")
-print("Convert int to String")
-# int variable
-a = 5
 
-# typecast to str
-n = str(a)
-
-print(n)
-print(type(n))
-
-
-# Convert String to float
 print("========================================================")
-print("Convert String to float")
 
-# string variable
-a = "5.9"
+# Created an empty set
+b = set()
+print(type(b))
 
-# typecast to float
-n = float(a)
-
-print(n)
-print(type(n))
+b.add(1)
+b.add(3)
+b.add(5)
+b.add(5)
+b.add(5)
+print(b)
 print("========================================================")

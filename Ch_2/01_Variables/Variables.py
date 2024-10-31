@@ -2,7 +2,7 @@
 #     Name        : Variables.py
 #     Author      : Pragnesh Patel
 #     Version     :
-#     Copyright   : Your copyright notice
+#     Copyright   :
 #     Description : Testing code for python
 # ============================================================================
 

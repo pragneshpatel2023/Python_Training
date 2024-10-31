@@ -1,23 +1,29 @@
 # ============================================================================
-#     Name        : List.py
+#     Name        : Empty_set.py
 #     Author      : Pragnesh Patel
 #     Version     :
 #     Copyright   :
 #     Description : Testing code for python
 # ============================================================================
 
-list1 = ["abc", 34, True, 40, "male"]
-
 print("========================================================")
+a = {}
+print(type(a))
 
-print(list1)
-print("list1[0] = ",list1[0])
-print("list1[0] = ",list1[1])
-print("list1[1] = ",list1[2])
-print("list1[2] = ",list1[3])
-print("list1[3] = ",list1[4])
+# An empty set can be created using below syntax.
+b = set()
+print(type(b))
+
+b.add(4)
+b.add(5)
+b.add(5)
+b.add(5)
+b.add(5)
+b.add('Pragnesh')
+b.add((4, 5, 6)) # Added a tuple
 
 
+print(b)
 
 print("========================================================")
 

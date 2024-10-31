@@ -2,9 +2,9 @@
 #     Name        : List_Method.py
 #     Author      : Pragnesh Patel
 #     Version     :
-#     Copyright   : Your copyright notice
+#     Copyright   :
 #     Description : Testing code for python
-# ===========list1 = ["abc", 34, True, 40, "male"]
+# ============================================================================
 
 '''============================================================================
     Method	    Description
